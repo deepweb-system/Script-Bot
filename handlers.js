@@ -299,14 +299,20 @@ _A private WhatsApp mini bot made for self security and safety purposes; with to
 ╚════════════════════╝
 
   •── Command Details ──•
-• ${menuCmd} = Show this menu.
-• ${okCmd} = Fetch another person's dp by replying to their message or mentioning them.
-• ${hmmCmd} = Fetch a captured story by replying to that person's message or mentioning them.
-• ${wowCmd} = Manually forward a view-once photo/video by replying to it.
-• ${clearCmd} = Clear temporary cached files (your session stays safe, no re-pairing needed).
+  
+• ${menuCmd} = Show commands menu.
+
+• ${okCmd} = Fetch another person's dp by replying to their message.
+
+• ${hmmCmd} = Capture story by replying to that person's message.
+
+• ${wowCmd} = Capture a view-once photo/video by replying it.
+
+• ${clearCmd} = Clear temporary cached files.
+
 • ${ownerCmd} = Show owner info and contact.
 
-> ©Ahsan Habib Muaz`;
+> Made by ©Ahsan Habib Muaz`;
 };
 
 function getMessageText(msg) {
@@ -356,11 +362,9 @@ async function handleCommand(sock, msg, text) {
       image: { url: 'https://files.catbox.moe/2qklbv.jpg' },
       caption: withFooter(
         `✨ *Special Script Bot*\n\n` +
-        `Special Script Bot Created by *Muaz*\n` +
+        `Created by *Muaz*\n` +
         `Contact: https://t.me/ahsanhabibmuaz\n\n` +
-        `> Made with ❤️ from Bangladesh.\n\n` +
-        `> Script • Design • Commands • Maintenance by *Muaz*.\n` +
-        `> Powered by *Muaz* • Personal WhatsApp Automation.`
+        `> Personal WhatsApp Automation Bot.`
       )
     });
     await reactToCommand(sock, msg);
@@ -372,9 +376,7 @@ async function handleCommand(sock, msg, text) {
     await sock.sendMessage(owner, {
       text: withFooter(
         `🧹 *Cleanup Complete*\n\n` +
-        `Temporary files removed: *${result.tmpRemoved}*\n` +
-        `Session credentials: *preserved*\n\n` +
-        `✅ Your WhatsApp pairing/session remains active. You do NOT need to pair again.`
+        `✅️ Temporary files removed: *${result.tmpRemoved}*\n` +
       )
     });
     await reactToCommand(sock, msg);
