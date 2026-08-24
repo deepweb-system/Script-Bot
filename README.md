@@ -6,10 +6,10 @@ Private-use WhatsApp automation bot built with Node.js + Baileys.
 
 Command names are configured in `lib/cmd.js`.
 
-- `menu` — menu with bot image
+- `/menu` — menu with bot image
 - `/OK` — profile picture (reply/mention)
-- `/Hmm` — fetch captured story (reply/mention)
-- `/Wow` — manually forward a view-once photo/video by replying to it
+- `/hmm` — fetch captured story (reply/mention)
+- `/wow` — manually forward a view-once photo/video by replying to it
 - `/clear` — clear temporary files/cache while preserving the WhatsApp session
 - `/owner` — owner information with owner's photo
 
