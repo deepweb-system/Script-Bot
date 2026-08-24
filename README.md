@@ -22,6 +22,6 @@ Successful commands react to the command message using `commandReaction` from `s
 - `lib/cmd.js` — command text
 - `lib/store.js` — temporary/session cleanup and local cache
 
-### Important
+### Made with ❤️ by Muaz
 
-`/clear` only removes temp files.
+`/owner` this project made for personal use only, do not use this bot for groups. Enjoy the freedom feel the privacy.
