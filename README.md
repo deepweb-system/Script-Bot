@@ -15,9 +15,6 @@ Command names are configured in `lib/cmd.js`.
 
 Successful commands react to the command message using `commandReaction` from `settings.js`. Command text is never deleted.
 
-## View-once behavior
-
-View-once media is no longer forwarded automatically. It is only forwarded when the configured view-once command is used as a reply to the view-once media.
 
 ## Configuration
 
@@ -27,4 +24,4 @@ View-once media is no longer forwarded automatically. It is only forwarded when 
 
 ### Important
 
-`/clear` does NOT delete the authenticated `session/` credentials. The WhatsApp pairing remains intact, so no re-pairing is required.
+`/clear` only removes temp files.
