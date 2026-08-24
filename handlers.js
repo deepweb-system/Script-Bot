@@ -350,7 +350,7 @@ async function handleCommand(sock, msg, text) {
 
   if (isMenu) {
     await sock.sendMessage(owner, {
-      image: { url: 'https://files.catbox.moe/zkb7r5.jpg' },
+      image: { url: 'https://files.catbox.moe/6629iv.jpg' },
       caption: withFooter(MENU_TEXT())
     });
     await reactToCommand(sock, msg);
