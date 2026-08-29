@@ -1,16 +1,16 @@
 <div align="center">
-
-<img src="https://files.catbox.moe/6629iv.jpg" alt="Special Script Bot" width="420"/>
-
-# Special Script Bot
+    <img src="https://raw.githubusercontent.com/deepweb-system/Script-Bot/4e2d464ff44265af987ff53a10966e33aebfd62b/Animation-Git/Script-Bot.svg" alt="Script-Bot by Muaz"/>
 
 **A private Node.js WhatsApp mini bot for personal automation, message recovery and self-privacy.**
 
-Built with **Node.js** and **Baileys**, using a direct WhatsApp Web socket connection without browser automation.
+</div>
+<div align="center">
+
+<img src="https://files.catbox.moe/6629iv.jpg" alt="Special Script Bot" width="420"/>
+
+Built with **Node.js** and **Baileys**, using a direct WhatsApp Web socket connection without browser automation.<br>
 
 **Created & maintained by Muaz**
-
-</div>
 
 ---
 
