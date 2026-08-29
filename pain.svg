@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="600" height="120">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@700&amp;display=swap');
+
+    svg {
+      font-family: "Google Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      width: 100%;
+      height: 100%;
+    }
+    svg text {
+      animation: stroke 5s infinite alternate;
+      stroke-width: 2;
+      stroke: #B33800;
+      font-size: 90px;
+      font-weight: 700;
+    }
+    @keyframes stroke {
+      0% {
+        fill: rgba(255, 102, 0, 0);
+        stroke: rgba(179, 56, 0, 1);
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 0 50%;
+        stroke-width: 2;
+      }
+      70% {
+        fill: rgba(255, 102, 0, 0);
+        stroke: rgba(179, 56, 0, 1);
+      }
+      80% {
+        fill: rgba(255, 102, 0, 0);
+        stroke: rgba(179, 56, 0, 1);
+        stroke-width: 3;
+      }
+      100% {
+        fill: rgba(255, 102, 0, 1);
+        stroke: rgba(179, 56, 0, 0);
+        stroke-dashoffset: -25%;
+        stroke-dasharray: 50% 0;
+        stroke-width: 0;
+      }
+    }
+  </style>
+  <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+    PAIN BOT
+  </text>
+</svg>
