@@ -1,0 +1,21 @@
+{
+  "name": "muaz-plus",
+  "version": "1.1.0",
+  "description": "Muaz Plus - personal WhatsApp automation bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:optimized": "node --max-old-space-size=256 index.js"
+  },
+  "author": "Muaz",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.7.23",
+    "@hapi/boom": "^10.0.1",
+    "pino": "^8.21.0",
+    "youtube-dl-exec": "^3.1.13"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
