@@ -1,18 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="600" height="120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 150" width="600" height="150">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&amp;display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&amp;display=swap');
 
     svg {
       font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       width: 100%;
       height: 100%;
     }
-    svg text {
+    svg text.main-text {
       animation: stroke 5s infinite alternate;
       stroke-width: 2;
       stroke: #50649D;
-      font-size: 90px;
+      font-size: 80px;
       font-weight: 700;
+    }
+    .sub-text {
+      font-size: 13px;
+      font-weight: 500;
+      fill: #50649D;
+      opacity: 0.8;
+      letter-spacing: 2px;
+      text-transform: uppercase;
     }
     @keyframes stroke {
       0% {
@@ -40,7 +48,10 @@
       }
     }
   </style>
-  <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+  <text class="main-text" x="50%" y="70" dy=".35em" text-anchor="middle">
     SCRIPT BOT
+  </text>
+  <text class="sub-text" x="50%" y="125" text-anchor="middle">
+    ©Powered by Muaz
   </text>
 </svg>
