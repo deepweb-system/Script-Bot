@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://raw.githubusercontent.com/deepweb-system/Script-Bot/4e2d464ff44265af987ff53a10966e33aebfd62b/Animation-Git/Script-Bot.svg" alt="Script-Bot by Muaz"/>
+    <img src="https://raw.githubusercontent.com/deepweb-system/deepweb-system.github.io/b00718d28b97be6b349bf50894d0b6fdb59328f4/bot-image/script-bot.svg" alt="Script-Bot by Muaz"/>
 
 **A private Node.js WhatsApp mini bot for personal automation, message recovery and self-privacy.**
 
